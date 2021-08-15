@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+   printf ("MENENTUKAN BILANGAN NEGATIF DAN POSITIF\n\n");
+   
+   int bilangan ;
+   printf ("Silahkan masukkan angka yang akan diuji : ");
+   scanf ("%d",&bilangan);
+   
+   if (bilangan<=0)
+   {
+   	if (bilangan==0)
+	   	{
+   		printf ("Anda memasukkan angka nol ");
+   			}else
+   		{
+   		printf ("Anda memasukkan angka NEGATIF");
+		   }
+   }else
+   {
+   	printf ("Anda memasukkan angka POSITIF");
+   }
+   
+   
+   
+    return 0;
+}
