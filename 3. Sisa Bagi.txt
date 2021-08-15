@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+   int dibagi, pembagi, hasil, modulus;
+   printf ("Masukkan angka  yang akan dibagi : ");
+   scanf ("%d", &dibagi);
+   
+   printf ("Masukkan angka pembagi : ");
+   scanf ("%d", &pembagi);
+   
+   hasil = dibagi/pembagi;
+   modulus = dibagi%pembagi;
+   
+   
+   printf ("jadi angka %d dibagi %d sama dengan %d\n\n",dibagi,pembagi,hasil);
+   printf ("Jadi angka %d dibagi %d hasil baginya sama dengan %d", dibagi, pembagi,modulus);
+    return 0;
+}

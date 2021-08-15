@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main ()
+{
+	int angka;
+	
+	printf ("PROGRAM MENENTUKAN GANJIL DAN GENAP\n\n");
+	
+	printf ("Masukkan angka yang akang diuji : ");
+	scanf ("%d",&angka);
+	
+	if (angka %2==0)
+	{
+		printf ("Jadi bilangan %d termasuk kategori bilangan GENAP",angka);
+		
+	}
+	else 
+	{
+		printf ("Jadi bilangan %d termasuk kategori bilangan GANJIL", angka);
+	}
+	
+	return 0;
+}

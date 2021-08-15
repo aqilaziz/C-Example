@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+   int tahun;
+   printf("Masukkan tahun yang akan ditentukan: ");
+   scanf("%d", &tahun);
+
+   // merupakan tahun kabisat jika habis dibagi 400
+   if (tahun % 400 == 0) {
+      printf("%d adalah tahun kabisat", tahun);
+   }
+   // Jika habis dibagi 100 bukan tahun kabisat
+      else if (tahun % 100 == 0) {
+      printf("%d bukan tahun kabisat", tahun);
+   }
+   // merupakan tahun kabisat jika habis dibagi 4
+   else if (tahun % 4 == 0) {
+      printf("%d Tahun kabisat", tahun);
+   }
+   // Jika tidak semuanya.
+   else {
+      printf("%d Bukan tahun kabisat.", tahun);
+   }
+
+   return 0;
+}

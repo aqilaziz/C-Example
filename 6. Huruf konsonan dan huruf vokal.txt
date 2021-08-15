@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main ()
+{
+	printf ("PROGRAM MENENTUKAN HURUF VOKAL ATAUKAH KONSONAN\n\n");
+	
+	char h;
+	printf ("Masukkan satu huruf yang akan ditentukan : ");
+	scanf ("%c",&h);
+	
+	
+	int huruf_vokal1 = (h=='a'|| h=='i'||h=='u'|| h=='e'||h=='o');
+	int huruf_vokal2 = (h=='A'|| h=='I'||h=='U'|| h=='E'||h=='O');
+	
+	if (h== huruf_vokal1||huruf_vokal2)
+		{
+			printf ("Huruf yang anda masukkan adalah huruf VOKAL");
+		}
+	else 
+		{
+			printf ("Huruf yang anda masukkan adalah huruf KONSONAN");
+		}
+	return 0;
+}

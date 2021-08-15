@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main ()
+{
+	printf ("PROGRAM MENENTUKAN BILANGAN TERBESAR DARI TIGA BILANGAN \n\n");
+	int angka1, angka2, angka3;
+	
+	
+	printf ("Masukkan angka yang akan diuji coba\n");
+	
+	printf ("Masukkan angka pertama : ");
+	scanf ("%d",&angka1);
+
+	printf ("Masukkan angka kedua : ");
+	scanf ("%d",&angka2);	
+	
+	printf ("Masukkan angka ketiga : ");
+	scanf ("%d",&angka3);	
+	
+	
+	if (angka1> angka2 && angka1 >angka3)
+	{
+		printf ("Jadi angka pertama adalah yang terbesar, yaitu angka %d",angka1);
+	}else if (angka2> angka1 && angka2 >angka3)
+	{
+		printf ("Jadi angka kedua adalah yang terbesar, yaitu angka %d",angka2);
+	}else if (angka3> angka1 && angka3 >angka2)
+	{
+		printf ("Jadi angka ketiga adalah yang terbesar, yaitu angka %d",angka3);
+	}
+	
+	return 0;
+}

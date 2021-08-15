@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main ()
+{
+	int nilaipertama,nilaikedua,temp;
+	
+	printf ("Masukkan nilai pertama : ");
+	scanf ("%d", &nilaipertama);
+	
+	printf ("Masukkan nilai kedua : ");
+	scanf ("%d", &nilaikedua);
+	
+	temp=nilaipertama;
+	nilaipertama=nilaikedua;
+	nilaikedua=temp;
+	
+	printf ("Nilai pertama yang anda masukkan adalah : %d\n", nilaipertama);
+	printf ("Nilai kedua yang anda masukkan adalah : %d", nilaikedua);
+	return 0;
+}
