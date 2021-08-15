@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main ()
+
+{
+	int atas,bawah;
+	printf ("masukkan angka batas atas : ");
+	scanf ("%d",&atas);
+	printf ("masukkan angka batas bawah : ");
+	scanf ("%d",&bawah);
+	
+	for (int i=bawah; i<=atas;i++)
+	{
+		printf ("%d ",i);
+	}
+}
