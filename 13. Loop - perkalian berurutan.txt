@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+	int bil;
+	printf ("Masukkan angka : ");
+	scanf ("%d", &bil);
+	
+	
+	int sum;
+	for (int i =1; i<=bil; i++)
+	{
+		sum = i * bil;
+		printf ("%i * %i = %i\n",bil,i,sum);
+	}
+    return 0;
+}
